@@ -1,6 +1,4 @@
-ALTER TABLE cars ADD color VARCHAR;
-UPDATE cars SET model='c' WHERE brand='Rmz';
-UPDATE cars SET color='Red' WHERE brand='Rmz';
-UPDATE cars SET color='Blue' WHERE brand='Toyota';
-UPDATE cars SET color='Yellow' WHERE brand='Vigo';
-SELECT * FROM cars;
+SELECT brand, model, year, color, COUNT(*)
+FROM cars
+GROUP BY brand, model, year, color
+HAVING COUNT(*) > 1;
