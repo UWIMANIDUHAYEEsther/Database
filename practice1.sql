@@ -1,4 +1,4 @@
-SELECT brand, model, year, color, COUNT(*)
-FROM cars
-GROUP BY brand, model, year, color
-HAVING COUNT(*) > 1;
+
+
+DELETE FROM cars WHERE brand='Vigo';
+SELECT * FROM cars;
