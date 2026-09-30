@@ -1,3 +1,2 @@
-
-ALTER TABLE cars ADD color VARCHAR;
+ALTER TABLE cars DROP color;
 SELECT * FROM cars;
