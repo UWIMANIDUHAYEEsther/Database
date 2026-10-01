@@ -1,2 +1,2 @@
-SELECT * FROM products ORDER BY price DESC;
-SELECT * FROM products ORDER BY product_name;
+SELECT * FROM products LIMIT 10;
+SELECT * FROM products LIMIT 20 OFFSET 10;
