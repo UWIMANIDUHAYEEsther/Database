@@ -1,1 +1,2 @@
-SELECT DISTINCT category_id FROM products;
+
+SELECT TRUE AND NULL AS results;
