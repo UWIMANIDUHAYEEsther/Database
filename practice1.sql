@@ -1,2 +1,2 @@
 
-SELECT TRUE AND NULL AS results;
+SELECT TRUE OR NULL AS results;
